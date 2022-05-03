@@ -12,6 +12,8 @@
 		A0B8171D2820B1C4005BF352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B8171C2820B1C4005BF352 /* Assets.xcassets */; };
 		A0B817202820B1C4005BF352 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B8171F2820B1C4005BF352 /* Preview Assets.xcassets */; };
 		A0B817272820C988005BF352 /* AddThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B817262820C988005BF352 /* AddThingView.swift */; };
+		A0B817292820CB42005BF352 /* ThingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B817282820CB42005BF352 /* ThingStore.swift */; };
+		A0B8172B2820CE55005BF352 /* ThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B8172A2820CE55005BF352 /* ThingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		A0B8171C2820B1C4005BF352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0B8171F2820B1C4005BF352 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0B817262820C988005BF352 /* AddThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThingView.swift; sourceTree = "<group>"; };
+		A0B817282820CB42005BF352 /* ThingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingStore.swift; sourceTree = "<group>"; };
+		A0B8172A2820CE55005BF352 /* ThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				A0B817182820B1C0005BF352 /* SwiftUI_PropertyWrapperApp.swift */,
-				A0B8171A2820B1C0005BF352 /* ContentView.swift */,
-				A0B817262820C988005BF352 /* AddThingView.swift */,
+				A0B8172C2820D6CF005BF352 /* Views */,
+				A0B817282820CB42005BF352 /* ThingStore.swift */,
 				A0B8171C2820B1C4005BF352 /* Assets.xcassets */,
 				A0B8171E2820B1C4005BF352 /* Preview Content */,
 			);
@@ -68,6 +72,16 @@
 				A0B8171F2820B1C4005BF352 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0B8172C2820D6CF005BF352 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0B8171A2820B1C0005BF352 /* ContentView.swift */,
+				A0B8172A2820CE55005BF352 /* ThingView.swift */,
+				A0B817262820C988005BF352 /* AddThingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,8 @@
 			files = (
 				A0B8171B2820B1C0005BF352 /* ContentView.swift in Sources */,
 				A0B817192820B1C0005BF352 /* SwiftUI_PropertyWrapperApp.swift in Sources */,
+				A0B817292820CB42005BF352 /* ThingStore.swift in Sources */,
+				A0B8172B2820CE55005BF352 /* ThingView.swift in Sources */,
 				A0B817272820C988005BF352 /* AddThingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

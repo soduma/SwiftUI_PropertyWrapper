@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUI_PropertyWrapperApp: App {
+    @StateObject private var store = ThingStore()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.textCase, .uppercase)
+                .environmentObject(store)
         }
     }
 }
