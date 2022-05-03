@@ -12,6 +12,7 @@ struct SwiftUI_PropertyWrapperApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.textCase, .uppercase)
         }
     }
 }
